@@ -15,7 +15,8 @@ RUN apt-get update && apt-get -y install --no-install-recommends \
     emacs \
     dropbear \
     ca-certificates \
-    ansible
+    ansible \
+    openssh-client
 
 # Install dumb-init
 ENV DUMB_INIT_VERSION=1.2.0
